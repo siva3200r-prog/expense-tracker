@@ -1,14 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../lib/supabase';
-import {
-  Lightbulb,
-  TrendingUp,
-  AlertTriangle,
-  Sparkles,
-  RefreshCw,
-  CheckCircle
-} from 'lucide-react';
+import { Lightbulb, TrendingUp, TriangleAlert as AlertTriangle, Sparkles, RefreshCw, CircleCheck as CheckCircle } from 'lucide-react';
 
 interface Insight {
   id: string;

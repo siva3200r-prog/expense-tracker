@@ -1,14 +1,7 @@
 import { type ReactNode } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import {
-  LayoutDashboard,
-  PlusCircle,
-  Lightbulb,
-  Target,
-  LogOut,
-  Wallet
-} from 'lucide-react';
+import { LayoutDashboard, CirclePlus as PlusCircle, Lightbulb, Target, LogOut, Wallet } from 'lucide-react';
 
 interface LayoutProps {
   children: ReactNode;

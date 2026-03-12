@@ -1,13 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../lib/supabase';
-import {
-  Target,
-  Plus,
-  Calendar,
-  CheckCircle,
-  Trash2
-} from 'lucide-react';
+import { Target, Plus, Calendar, CircleCheck as CheckCircle, Trash2 } from 'lucide-react';
 
 interface Goal {
   id: string;
